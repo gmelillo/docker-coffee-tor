@@ -16,8 +16,8 @@ RUN apt-get update && \
 
 # Default environments
 ENV HTTP_PROXY="http://polipo:8123" \
-	HTTPS_PROXY="http://polipo:8123" \
-	NO_PROXY=".collusi.club,api.collusi.club,www.collusi.club,collusi.club,registry.npmjs.org"
+    HTTPS_PROXY="http://polipo:8123" \
+    NO_PROXY=".collusi.club,api.collusi.club,www.collusi.club,collusi.club,registry.npmjs.org"
 
 VOLUME ['/opt/coffee/app']
 
