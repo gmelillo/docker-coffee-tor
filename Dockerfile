@@ -1,4 +1,4 @@
-FROM ubuntu:18.10
+FROM ubuntu:20.04
 MAINTAINER Gabriel Melillo <gabriel@melillo.me>
 
 # Startup script
